@@ -59,7 +59,9 @@ db_config = {
     "password": "<your_mysql_password>",
     "database": "vehicle_db"
 }
-Twilio API Setup
+
+### Twilio API Setup
+
 Create a Twilio account: https://www.twilio.com/try-twilio
 
 Get your Account SID, Auth Token, and buy a Twilio phone number.
@@ -67,20 +69,27 @@ Get your Account SID, Auth Token, and buy a Twilio phone number.
 Store your Twilio credentials in the sms.py file:
 
 account_sid = "<your_twilio_account_sid>"
+
 auth_token = "<your_twilio_auth_token>"
+
 from_phone_number = "<your_twilio_phone_number>"
 
 
-Running the App
+
+### Running the App
 
 1. Upload images via the app
+
 When running, the app will save uploaded images to the uploaded folder automatically.
 
 2. Run the Streamlit app
+
 Run the main application file (assumed to be main.py):
+
 streamlit run main.py
 
 3. upload image from pictures
+
 in the streamlit app click on brownse file and choose the image in the pictures folder and test it with the image inside the test folder within pictures
 
 
